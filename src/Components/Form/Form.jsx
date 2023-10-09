@@ -29,7 +29,7 @@ const Form = () => {
                   Ismingiz *
                 </h6>
                 <input
-                  style={{ border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
+                  style={{ width:"90%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
                   type="text"
                   placeholder="  Ism"
                   className="text-[#85888c] font-Roboto text-[1.25vw] font-[400] w-[19.72vw] h-[2.29vw] bg-[#0E0E37] rounded-[8px] pl-[1vw] sm:w-[43vw] sm:h-[4vw] sm:text-[1.5vw]
@@ -41,7 +41,7 @@ const Form = () => {
                   Elekrton pochtangiz *
                 </h6>
                 <input
-                  style={{ border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
+                  style={{width:"90%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
                   type="text"
                   placeholder="  Elekrton pochtangiz"
                   className="text-[#85888c] font-Roboto text-[1.25vw] font-[400] w-[19.72vw] h-[2.29vw] bg-[#0E0E37] rounded-[8px] pl-[1vw] sm:w-[43vw] sm:h-[4vw] sm:text-[1.5vw] inp"
@@ -49,7 +49,7 @@ const Form = () => {
               </div>
             </div>
             <h6 className="text-white font-Roboto text-[1.25vw] font-[400] mt-[1.65vw] sm:text-[1.45vw] formin" style={{fontSize:"11px", marginTop:"15px"}}>
-              Elekrton pochtangiz *
+              Label *
             </h6>
             <input
             style={{width:"93%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}

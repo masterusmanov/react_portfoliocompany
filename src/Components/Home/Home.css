@@ -1,0 +1,56 @@
+.cosinus {
+  background: linear-gradient(
+    to top,
+    #36C59E 0%,
+    #35BEA1 10.39%,
+    #32A9AA 25.88%,
+    #2C88B8 44.57%,
+    #255ACC 65.76%,
+    #1C1FE5 88.73%,
+    #1700F2 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue {
+  border-radius: 800px;
+  opacity: 0.4;
+  background: #104af2;
+  filter: blur(250px);
+}
+.anim {
+  background-color: #80F7FF !important;
+  
+  animation: animate 1.6s linear infinite;
+}
+@keyframes animate{
+  0%{
+    box-shadow: 0px 0px 10px #80F7FF;
+  }
+  20%{
+    box-shadow: 0px 0px 20px #0a8089;
+  }
+  40%{
+    box-shadow: 0px 0px 30px #42aeb5;
+  }
+  60%{
+    box-shadow: 0px 0px 40px #2ca1aa;
+  }
+  80%{
+    box-shadow: 0px 0px 35px #02c9d8;
+  }
+  100%{
+    box-shadow: 0px 0px 20px #02c9d8;
+  }
+}
+
+@media (max-width: 425px) {
+  .bgnav {
+    height: 80vh;
+    gap: 0;
+  }
+  }
+
+
+  

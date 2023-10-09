@@ -1,0 +1,51 @@
+.red1 {
+  border-radius: 1000px;
+  opacity: 0.4;
+  background: linear-gradient(45deg, #733b9c 0%, #733b9c 7.4%, #2e43c2 100%);
+  filter: blur(250px);
+}
+@media (max-width: 768px) {
+  .iconn {
+    font-size: 20vw !important;
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
+}
+@media (max-width: 425px) {
+  .formtext {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+  }
+  .formin {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
+  .inp {
+    height: 30px;
+    font-size: 14px;
+  }
+  
+  .bizbn {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .btnn{
+    height: 30px;
+    font-size: 10px;
+    width: 25%;
+  }
+  .label {
+    height: 20vw;
+    font-size: 14px;
+  }
+}

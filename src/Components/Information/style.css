@@ -1,0 +1,14 @@
+.radius {
+  border-radius: 100px;
+  opacity: 0.4;
+  background: linear-gradient(45deg, #733b9c 0%, #733b9c 7.4%, #2e43c2 100%);
+  filter: blur(250px);
+}
+@media (max-width:425px){
+  .boxxx {
+    width: 100%;
+  }
+  .border1 {
+    width: 75vw;
+  }
+}

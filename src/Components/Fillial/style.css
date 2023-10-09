@@ -1,0 +1,49 @@
+
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper_father  .swiper {
+  width: 92%;
+  height: 50vh;
+}
+
+.swiper_father  .swiper-slide {
+  font-size: 18px;
+  /* background: #fff; */
+}
+
+.swiper_father  .swiper-slide img {
+  display: block;
+  width: 20.77vw;
+  height: 6.94vw;
+  object-fit: cover;
+}
+
+.swiper_father  .swiper-slide {
+    width: 21.77vw;
+    height: 7.94vw;
+  }
+  
+  .swiper_father  .swiper-slide:nth-child(2n) {
+    width: 21.77vw;
+    height: 7.94vw;
+  }
+
+  .swiper_father  .swiper-pagination {
+    width: 5vw !important;
+    margin-left: 85% !important;
+  }
+  
+  .swiper-pagination {
+    display: none !important;
+  }
+  

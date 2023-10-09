@@ -1,0 +1,77 @@
+.foter {
+  border-radius: 1000px;
+  opacity: 0.4;
+  background: linear-gradient(45deg, #550b8a 0%, #6908ae 7.4%, #081c91 100%);
+  filter: blur(250px);
+}
+.iconnn {
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+}
+ @media (max-width: 425px) {
+  .iconnn {
+   font-size: 20vw !important;
+   width: 2.5vw !important;
+   height: 2.5vw !important;
+  }
+  .fotter_tex {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .footer_box {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer_box p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 0.32px;
+  }
+  .iconnn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 0.32px;
+  }
+  .footer_boxxx{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    letter-spacing: 0.32px;
+  }
+  .footer_box h5{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+  }
+  .iconnn1 {
+    display: flex;
+    width: 5vw !important;
+    height: 5vw !important;
+  }
+  .iconnn11 {
+    display: flex;
+    width: 6vw !important;
+    height: 6vw !important;
+  }
+  .fotertex {
+    font-size: 6px;
+  }
+   }

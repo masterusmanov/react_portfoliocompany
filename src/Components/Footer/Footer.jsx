@@ -116,7 +116,7 @@ const Footer = () => {
           className="font-Inter text-[2.22vw] text-white font-[700] xs:w-[10vw]"
           alt=""
         style={{margin:"auto"}}/>
-        <p className="text-white text-[1.11vw] font-[500] fotertex" style={{fontSize:"12px", marginTop:"15px"}}>
+        <p className="text-white text-[1.11vw] font-[500] fotertex" style={{fontSize:"12px", marginTop:"15px", textAlign:"center"}}>
           © 2023 Cosinus IT. Barcha huquqlar himoyalangan
         </p>
       </div>

@@ -13,7 +13,7 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
-    <div className="App" style={{backgroundColor: "#0E0E37"}}>
+    <div className="App" style={{backgroundColor: "#0E0E37", overflow:"hidden"}}>
       <Navbar />
       <Home />
       <Corusel />

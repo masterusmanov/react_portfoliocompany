@@ -13,20 +13,16 @@ import itpark from "../../Assets/Fillial/itpark.svg"
 
 const Fillial = () => {
   return (
-    <div className="pl-[5.20vw] bg-nav pt-[8.95vw] overflow-hidden" style={{marginTop:"50px", height:"25vh"}}>
-      <h2 className="font-Roboto text-[3.58vw] font-[700] text-white" style={{marginLeft:"15px"}}>
-        Bizga ishonch bildirgan kompaniyalar:
-      </h2>
-      <p className="text-white font-Roboto text-[1.66vw] font-[400] pt-[1.66vw] w-[50vw] pb-[3.33vw] sm:text-[1.8vw]" style={{marginLeft:"15px", fontSize:"10px"}}>
-        IT-autsorsing kompaniyalari o'z mijozlarining ehtiyojlariga
-        moslashtirilgan turli xizmatlarni taklif qilishadi..
-      </p>
-      <div>
-        <div className="w-[70%] h-[40vh] absolute ml-[15vw]"></div>
+    <div className="container mx-auto">
+        <div className="py-2">
+        <h2 className="text-white md:text-[34px] font-bold">Bizga ishonch bildirgan kompaniyalar:</h2>
+        <p className="text-white text-[10px] md:text-[14px] xl:text-[18px] ">IT kompaniyalari o'z mijozlarining ehtiyojlariga moslashtirilgan turli xizmatlarni taklif qilishadi.</p>
+      </div>
+      <div className="">
         <div className="swiper_father">
         <Swiper
             slidesPerView={"auto"}
-            spaceBetween={15}
+            spaceBetween={5}
             
             autoplay={{
               delay: 3000,
@@ -64,6 +60,16 @@ const Fillial = () => {
         </div>
       </div>
     </div>
+    // <div className="pl-[5.20vw] bg-nav pt-[8.95vw] overflow-hidden" style={{marginTop:"50px", height:"25vh"}}>
+    //   <h2 className="font-Roboto text-[3.58vw] font-[700] text-white" style={{marginLeft:"15px"}}>
+    //     Bizga ishonch bildirgan kompaniyalar:
+    //   </h2>
+    //   <p className="text-white font-Roboto text-[1.66vw] font-[400] pt-[1.66vw] w-[50vw] pb-[3.33vw] sm:text-[1.8vw]" style={{marginLeft:"15px", fontSize:"10px"}}>
+    //     IT-autsorsing kompaniyalari o'z mijozlarining ehtiyojlariga
+    //     moslashtirilgan turli xizmatlarni taklif qilishadi..
+    //   </p>
+      
+    // </div>
   );
 };
 

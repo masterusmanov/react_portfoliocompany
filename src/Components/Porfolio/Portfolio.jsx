@@ -32,30 +32,22 @@ const Portfolio = () => {
     },
   ]);
   return (
-    <div className="px-[5.20vw] bg-nav pt-[9.72vw] w-[100%] sm:overflow-hidden xs:overflow-hidden" style={{marginTop:"50px"}}>
-      <h4 className=" text-white font-Roboto text-[3vw] font-[700]" style={{padding:"10px"}}>
-        PORTFOLIO
-      </h4>
-      <p className="text-white text-[2.22vw] font-[400] w-[60vw] pb-[2.22vw]" style={{fontSize:"10px", padding:"10px"}}>
-        IT-autsorsing kompaniyalari o'z mijozlarining ehtiyojlariga
-        moslashtirilgan turli xizmatlarni taklif qilishadi.
-      </p>
-      <div className="bg-nav" style={{width:"100%", textAlign:"center", display:"flex", flexWrap:"wrap", justifyContent:"center", gap:"15px"}} >
+    <div className="container mx-auto">
+      <div className="py-10">
+        <h2 className="text-white md:text-[34px] font-bold">PORTFOLIO</h2>
+        <p className="text-white text-[10px] md:text-[14px] xl:text-[18px] ">Biz bilan zamon bilan hamnafas bo'ling</p>
+      </div>
+      <div className="grid md:flex flex-wrap justify-center items-center gap-5">
         {img.map((item, index) => (
-          <div
-            style={{
-              width:"150px"
-            }}
-            className="w-[40.75vw]"
-          >
-            <img className="w-[43.75vw] h-[31.11vw]" src={item.img11} alt="" style={{width:"150px"}}/>
-            <h6 className="text-white font-Roboto text-[2.22vw] font-[700] tracking-tighter-[0.64px] pt-[1.11vw]" style={{fontSize:"10px", marginTop:"5px"}}>
+          <div className="w-[350px] md:w-[320px]">
+            <img className="w-full h-[250px]" src={item.img11} alt=""/>
+            <h6 className="text-white font-Roboto text-[20px] font-[700]">
               {item.text}
             </h6>
           </div>
         ))}
       </div>
-      <div className="flex justify-center pt-[3.22vw] pb-[10vw]">
+      <div className="flex flex-wrap justify-center pt-[3.22vw] pb-[10vw]">
         <Button
           endIcon={
             <ArrowOutwardIcon style={{ width: "1.66vw", height: "1.66vw" }} />
@@ -76,6 +68,16 @@ const Portfolio = () => {
         </Button>
       </div>
     </div>
+    // <div className="px-[5.20vw] bg-nav pt-[9.72vw] w-[100%] sm:overflow-hidden xs:overflow-hidden" style={{marginTop:"50px"}}>
+    //   <h4 className=" text-white font-Roboto text-[3vw] font-[700]" style={{padding:"10px"}}>
+    //     PORTFOLIO
+    //   </h4>
+    //   <p className="text-white text-[2.22vw] font-[400] w-[60vw] pb-[2.22vw]" style={{fontSize:"10px", padding:"10px"}}>
+    //     IT-autsorsing kompaniyalari o'z mijozlarining ehtiyojlariga
+    //     moslashtirilgan turli xizmatlarni taklif qilishadi.
+    //   </p>
+      
+    // </div>
   );
 };
 

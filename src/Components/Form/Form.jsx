@@ -12,24 +12,20 @@ import "./form.css"
 
 const Form = () => {
   return (
-    <div className="px-[5.20vw] bg-nav w-[100%] pt-[9.72vw] xs:overflow-hidden">
-      <h5 className="text-white font-Roboto text-[3.33vw] font-[700] " style={{marginLeft:"15px", fontSize:"24px"}}>
-        Biz bilan bo’glanish
-      </h5>
-      <h6 className="font-Roboto text-[2vw] font-[400] text-white w-[55vw] pt-[1.66vw] sm:text-[1.8vw] sm:w-[80vw] sm:text-[#757575] forminn" style={{marginLeft:"15px", fontSize:"10px"}}>
-        IT-autsorsing kompaniyalari o'z mijozlarining ehtiyojlariga
-        moslashtirilgan turli xizmatlarni taklif qilishadi.
-      </h6>
-      <div>
-        <div className="flex gap-[4.86vw] sm:flex-col xs:flex-col" style={{marginLeft:"15px", marginTop:"20px"}}>
-          <div style={{display:"grid"}}>
-            <div className="flex gap-[1.55vw] pt-[3.33vw]" style={{display:"flex", gap:"10px"}}>
+    <div className="container mx-auto py-5">
+        <div className="pt-14">
+        <h2 className="text-white md:text-[34px] font-bold">Biz bilan bo’glanish</h2>
+        <p className="text-white text-[10px] md:text-[14px] xl:text-[18px] ">IT kompaniyalari o'z mijozlarining ehtiyojlariga moslashtirilgan turli xizmatlarni taklif qilishadi.</p>
+      </div>
+      <div className="grid gap-[4.86vw] sm:flex-col xs:flex-col">
+          <div className="grid gap-2">
+            <div className="grid gap-3 " >
               <div>
-                <h6 className="text-white font-Roboto text-[1.25vw] font-[400] sm:text-[1.45vw] formin" style={{fontSize:"11px"}}>
+                <h6 className="text-white font-Roboto text-[1.25vw] font-[400] sm:text-[1.45vw] formin" >
                   Ismingiz *
                 </h6>
                 <input
-                  style={{ width:"90%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
+                  style={{width:"93%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
                   type="text"
                   placeholder="  Ism"
                   className="text-[#85888c] font-Roboto text-[1.25vw] font-[400] w-[19.72vw] h-[2.29vw] bg-[#0E0E37] rounded-[8px] pl-[1vw] sm:w-[43vw] sm:h-[4vw] sm:text-[1.5vw]
@@ -37,18 +33,18 @@ const Form = () => {
                 />
               </div>
               <div>
-                <h6 className="text-white font-Roboto text-[1.25vw] font-[400] sm:text-[1.45vw] formin" style={{fontSize:"11px"}}>
+                <h6 className="text-white font-Roboto text-[1.25vw] font-[400] sm:text-[1.45vw] formin">
                   Elekrton pochtangiz *
                 </h6>
                 <input
-                  style={{width:"90%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
+                  style={{width:"93%", border: "1px dashed #34BCA2", backgroundColor:"#0E0E37", borderRadius:"15px" }}
                   type="text"
                   placeholder="  Elekrton pochtangiz"
                   className="text-[#85888c] font-Roboto text-[1.25vw] font-[400] w-[19.72vw] h-[2.29vw] bg-[#0E0E37] rounded-[8px] pl-[1vw] sm:w-[43vw] sm:h-[4vw] sm:text-[1.5vw] inp"
                 />
               </div>
             </div>
-            <h6 className="text-white font-Roboto text-[1.25vw] font-[400] mt-[1.65vw] sm:text-[1.45vw] formin" style={{fontSize:"11px", marginTop:"15px"}}>
+            <h6 className="text-white font-Roboto text-[1.25vw] font-[400] mt-[1.65vw] sm:text-[1.45vw] formin">
               Label *
             </h6>
             <input
@@ -80,13 +76,13 @@ const Form = () => {
             </div>
           </div>
 
-          <div className="pt-[2.5vw]" style={{marginTop:"15px"}}>
-            <div className="flex gap-[1vw] pt-[1.11vw] icondiv" style={{display:"flex"}}>
-              <LocationOnIcon
+          <div className="pt-[2.5vw]">
+             <div className="flex gap-[1vw] pt-[1.11vw] icondiv">
+               <LocationOnIcon
                className="iconnn1"
                 style={{ color: "#3C4BDC", width: "30px", height: "30px" }}
               />
-              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white w-[40vw] sm:text-[2.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
+              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white  sm:text-[1.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
                 {" "}
                 Tashkent, Mirzo-Ulugbekskiy tumani, mahalla Shaxriobod
               </h6>
@@ -96,7 +92,7 @@ const Form = () => {
               className="iconnn1"
                 style={{ color: "#3C4BDC", width: "25px", height: "25px" }}
               />
-              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white w-[40vw] sm:text-[2.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
+              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white w-[40vw] sm:text-[1.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
                 +998 94 332 00 16
               </h6>
             </div>
@@ -105,7 +101,7 @@ const Form = () => {
               className="iconnn1"
                 style={{ color: "#3C4BDC", width: "30px", height: "30px" }}
               />
-              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white w-[40vw] sm:text-[2.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
+              <h6 className="font-Roboto text-[1.66vw] font-[500] text-white w-[40vw] sm:text-[1.8vw] sm:w-[100%] lett tracking-[0.64px] formtext" style={{marginLeft:"5px"}}>
                 amalit@gmail.com
               </h6>
             </div>
@@ -149,7 +145,7 @@ const Form = () => {
             </div>
           </div>
         </div>
-      </div>
+        
       <div className="pt-[3.33vw] pb-[6.94vw]">
         <div
           style={{
@@ -185,14 +181,13 @@ const Form = () => {
           <iframe
             src="https://yandex.uz/map-widget/v1/?ll=69.299061%2C41.304563&z=12.93"
             width="100%"
-            height="200px"
+            height="300px"
             frameborder="2"
             allowfullscreen="true"
             style={{ position: "relative" }}
           ></iframe>
         </div>
       </div>
-      <div className="w-[100%] h-[10000] red1"></div>
     </div>
   );
 };

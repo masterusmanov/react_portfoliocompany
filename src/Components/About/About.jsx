@@ -1,64 +1,29 @@
 import React from "react";
-import "./About.css";
 
 const About = () => {
   return (
-    <div className="px-[5.20vw] bg-[#104AF2] w-[100%] h-[80vh] sm:overflow-hidden xs:overflow-hidden xs:h-[50vh]" style={{backgroundColor:"#104AF2", padding:"5px"}}>
-      <div className="py-[3.33vw]">    
-        <h4 className="text-white font-Roboto text-[3vw] pb-[1.66vw] sm:text-[3vw] sm:pb-[1vw] xs:text-[4vw]" style={{fontSize:"30px", marginTop:"25px", marginLeft:"15px"}}>
-          Bizning xizmatlarimiz
-        </h4>
-        <p className="text-white font-Roboto text-[1.66vw] font-[400] w-[50%] sm:w-[100%] sm:text-[1.8vw] xs:w-[100%]" style={{fontSize:"12px", marginLeft:"15px"}}>
-          Mijozlar ehtiyojidan kelib chiqqan holda, xizmatlar taklif qilamiz.
-        </p>
-      </div>
-      <div className="w-[100%] flex gap-[3vw] relative sm:flex-wrap sm:gap-[2vw]" style={{marginLeft:"15px"}}>
-      <div className="flex-container">
-        <div className="side-by-side">
-          <div className="section">
-            <h5 className="text-white text-info">
-              IT
-            </h5>
-            <h6 className="text-info">
-              Mobile progmmalar, veb saytlardan tortib CRM sistemasini tizimlashtirishgacha bo'lgan sifatli xizmatlar
-            </h6>
+    <div className="bg-[#104AF2] py-3 md:py-5 lg:py-5 mt-[50px]">
+      <div className="container mx-auto ">
+        <h2 className="text-white md:text-[34px] font-bold">Bizning xizmatlarimiz</h2>
+        <p className="text-white text-[10px] md:text-[14px] xl:text-[18px] ">Jamoa o'z sohasining ustasi bo'lgan mutahasislardan yig'ilgan. Jamoamizning har bir a'zosi loyihangizni muvafaqqiyatga yetaklaydi.</p>
+        <div className="md:flex lg:flex justify-between gap-5 lg:mt-10">
+          <div className="lg:w-1/4">
+            <h5 className="text-white border-l-4 lg:text-[26px] border-blue-400 pl-2">IT</h5>
+            <h6 className="text-white text-[10px] lg:text-[14px]">Mobile progmmalar, veb saytlardan tortib CRM sistemasini tizimlashtirishgacha bo'lgan sifatli xizmatlar</h6>
+          </div>
+          <div className="lg:w-1/4">
+            <h5 className="text-white lg:text-[26px] border-l-4 border-blue-400 pl-2">Veb sayt</h5>
+            <h6 className="text-white text-[10px] lg:text-[14px]">Sayt dizaynini loyihalash, funksionalligini oshirish, brauzerlarda to'g'ri ishlashini taminlash va shu qator vazifalarni o'z ichiga oladi</h6>
+          </div>
+          <div className="lg:w-1/4">
+            <h5 className="text-white lg:text-[26px] border-l-4 border-blue-400 pl-2">Ta'lim</h5>
+            <h6 className="text-white text-[10px] lg:text-[14px]">IT ni mutaxasislardan o'rganing. Uzoq masofadan kelishingiz shart emas, siz shunchaki ro'yhatdan o'ting, biz oldingizga borib ilm ulashamiz</h6>
+          </div>
+          <div className="md:mr-5 lg:w-1/4 ">
+            <h5 className="text-white lg:text-[26px] border-l-4 border-blue-400 pl-1">Cybersport</h5>
+            <h6 className="text-white text-[10px] lg:text-[14px]">Ommabop va adrinalinga boy bo'lgan musobaqalar.</h6>
           </div>
         </div>
-        <div className="side-by-side">
-          <div className="section">
-            <h5 className="text-white text-info">
-              Veb sayt
-            </h5>
-            <h6 className="text-info">
-              Sayt dizaynini loyihalash, funksionalligini oshirish, brauzerlarda to'g'ri ishlashini taminlash va shu qator vazifalarni o'z ichiga oladi
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div className="flex-container">
-        <div className="side-by-side">
-          <div className="section">
-            <h5 className="text-white text-info">
-            Ta'lim
-            </h5>
-            <h6 className="text-info">
-            IT ni mutaxasislardan o'rganing. Uzoq masofadan kelishingiz shart
-            emas, siz shunchaki ro'yhatdan o'ting, biz oldingizga borib ilm
-            ulashamiz
-            </h6>
-          </div>
-        </div>
-        <div className="side-by-side">
-          <div className="section">
-            <h5 className="text-white text-info">
-            Cyber sport
-            </h5>
-            <h6 className="text-info">
-            Ommabop va adrinalinga boy bo'lgan musobaqalar.
-            </h6>
-          </div>
-        </div>
-      </div>
       </div>
     </div>
   );

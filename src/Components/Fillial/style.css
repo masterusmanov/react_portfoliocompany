@@ -13,12 +13,10 @@ body {
 }
 .swiper_father  .swiper {
   width: 92%;
-  height: 50vh;
 }
 
 .swiper_father  .swiper-slide {
   font-size: 18px;
-  /* background: #fff; */
 }
 
 .swiper_father  .swiper-slide img {

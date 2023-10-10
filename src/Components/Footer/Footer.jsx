@@ -10,62 +10,61 @@ import footer from "../../Assets/Footer/Bosh sahifa/Frame 55.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#04042F] px-[5.20vw] py-[2vw] cursor-pointer sm:overflow-hidden">
-      <div className="w-[40%] h-[50vh] foter absolute"></div>
-      <div className="flex gap-[10vw] fotter_tex" style={{display:"flex", gap:"10px", marginLeft:"15px"}}>
+    <div className="grid justify-center bg-[#04042F] px-[5.20vw] py-[2vw] cursor-pointer sm:overflow-hidden">
+      <div className="flex gap-[10vw] fotter_tex" >
         <div className="footer_box">
-          <h5 className="font-Inter text-[2.22vw] text-white font-[700]" style={{fontSize:"16px"}}>
+          <h5 className="font-Inter text-[2.22vw] text-white font-[700]" >
             Bizning xizmatlarimiz
           </h5>
-          <p className="font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className="font-[600] text-white" >
             Veb saytlar
           </p>
-          <p className="font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className="font-[600] text-white" >
             Veb saytlar
           </p>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Veb saytlar
           </p>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Veb saytlar
           </p>
         </div>
         <div className="footer_box">
-          <h5 className="text-[2.22vw] text-white font-[700]" style={{fontSize:"16px"}}>
+          <h5 className="text-[2.22vw] text-white font-[700]" >
             Portfolio
           </h5>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Cosimus IT-konpaniyasi
           </p>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Cosimus IT-konpaniyasi
           </p>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Cosimus IT-konpaniyasi
           </p>
-          <p className=" font-[600] text-white" style={{fontSize:"10px"}}>
+          <p className=" font-[600] text-white" >
             Cosimus IT-konpaniyasi
           </p>
         </div>
         <div className="xs:justify-center xs:m-[auto] text-center footer_box">
-          <h5 className="text-[2.22vw] text-white font-[700]" style={{fontSize:"16px"}}>
+          <h5 className="text-[2.22vw] text-white font-[700]" >
             Bog‘lanish
           </h5>
-          <div className="flex gap-[0.5vw] pt-[1.11vw] icondiv" style={{display:"flex"}}>
+          <div className="flex gap-[0.5vw] pt-[1.11vw] icondiv" >
             <PhoneIcon
               className="iconnn1"
-              style={{ color: "white", width: "12px", height: "12px" }}
+              style={{ color: "white"}}
             />
-            <p className="font-Roboto text-[1.36vw] font-[500] text-white flex items-center gap-[2.vw] xs:text-[2vw]" style={{fontSize:"10px"}}>
+            <p className="font-Roboto text-[1.36vw] font-[500] text-white flex items-center gap-[2.vw] xs:text-[2vw]" >
               +998 94 332 00 16
             </p>
           </div>
-          <div className="flex gap-[0.5vw] pt-[1.11vw] xs:justify-center xs:m-[auto] text-center" style={{display:"flex"}}>
+          <div className="flex gap-[0.5vw] pt-[1.11vw] xs:justify-center xs:m-[auto] text-center" >
             <LanguageIcon
               className="iconnn1"
-              style={{ color: "white", width: "12px", height: "12px" }}
+              style={{ color: "white"}}
             />
-            <p className="font-Roboto text-[1.36vw] font-[500] text-white flex items-center gap-[2.vw] tracking-[0.4px] xs:text-[2vw]" style={{fontSize:"10px"}}>
+            <p className="font-Roboto text-[1.36vw] font-[500] text-white flex items-center gap-[2.vw] tracking-[0.4px] xs:text-[2vw]" >
               amalit.uz
             </p>
           </div>
@@ -73,8 +72,8 @@ const Footer = () => {
             <TelegramIcon
             className="iconnn11"
               style={{
-                width: "15px",
-                height: "15px",
+                width: "30px",
+                height: "30px",
                 color: "white",
                 cursor: "pointer",
               }}
@@ -82,8 +81,8 @@ const Footer = () => {
             <InstagramIcon
               className="iconnn11"
               style={{
-                width: "15px",
-                height: "15px",
+                width: "30px",
+                height: "30px",
                 color: "white",
                 cursor: "pointer",
               }}
@@ -91,8 +90,8 @@ const Footer = () => {
             <YouTubeIcon
               className="iconnn11"
               style={{
-                width: "15px",
-                height: "15px",
+                width: "30px",
+                height: "30px",
                 color: "white",
                 cursor: "pointer",
               }}
@@ -100,8 +99,8 @@ const Footer = () => {
             <FacebookIcon
               className="iconnn11"
               style={{
-                width: "15px",
-                height: "15px",
+                width: "30px",
+                height: "30px",
                 color: "white",
                 cursor: "pointer",
               }}

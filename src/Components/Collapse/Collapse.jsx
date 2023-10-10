@@ -40,17 +40,13 @@ const Collapse = () => {
         },
     ])
   return (
-    <div className="px-[5.20vw] w-[100%] bg-nav sm:overflow-hidden xs:overflow-hidden" style={{marginTop:"50px"}}>
-      <h5 className="pt-[8.33vw] text-white font-Roboto text-[3.2vw] font-[700]" style={{marginLeft:"15px"}}>
-        Loyihangizni muammosiz bajarish uchun eng yangi texnologiyalardan
-        foydalanamiz
-      </h5>
-      <p className="text-white text-[1.66vw] font-[400] pt-[1.66vw] pb-[3.33vw] sm:text-[2vw]" style={{fontSize:"12px", marginLeft:"15px"}}>
-        Biz bilan zamon bilan hamnafas bo'ling
-      </p>
-    {
+    <div className="container mx-auto">
+        <div className="py-10">
+        <h2 className="text-white md:text-[34px] font-bold">Loyihangizni muammosiz bajarish uchun eng yangi texnologiyalardan foydalanamiz</h2>
+        <p className="text-white text-[10px] md:text-[14px] xl:text-[18px] ">Biz bilan zamon bilan hamnafas bo'ling</p>
+        {
         kurs.map((item,index)=>(
-            <div className="pb-[2.22vw]">
+            <div className="py-[1.22vw]">
             <Accordion
               sx={{
                 backgroundColor: "#0E0E37",
@@ -67,7 +63,7 @@ const Collapse = () => {
                   sx={{
                     color: "white",
                     fontFamily: "Roboto",
-                    fontSize: "2.77vw",
+                    fontSize: "2 vw",
                     fontWeight: "700",
                   }}
                 >
@@ -81,7 +77,7 @@ const Collapse = () => {
                   sx={{
                     color: "#aba6a6",
                     fontFamily: "Roboto",
-                    fontSize: "3.22vw",
+                    fontSize: "1.55vw",
                     fontWeight: "500",
                     lineHeight: "140%",
                     letterSpacing: "0.64px",
@@ -92,7 +88,6 @@ const Collapse = () => {
                  }
                 </Typography>
                 <div className="pt-[1.38vw] flex gap-[2.22vw]" style={{display:"flex", marginTop:"10px", gap:"15px"}}>
-                  {/* <img className="w-[6.06vw] h-[6.94vw]" src={item.html} alt="" /> */}
                   <img className="w-[6.12vw] h-[6vw]" src={item.css} alt="" style={{width:"30px", height:"30px"}}/>
                   <img className="w-[6.12vw] h-[6vw]" src={item.cass} alt="" style={{width:"30px", height:"30px"}} />
                   <img className="w-[6.12vw] h-[6vw]" src={item.js} alt="" style={{width:"30px", height:"30px"}}/>
@@ -104,6 +99,7 @@ const Collapse = () => {
             </div>
         ))
     }
+        </div>
     </div>
   );
 };
